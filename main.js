@@ -6,10 +6,13 @@
 //update : riprendo l oggetto con ...spreadOperators e gli passo i nuovi valori con PUT
 //come riprendo i valori? passadoli e modificandoli
 
+import * as bootstrap from 'bootstrap';
+window.bootstrap = bootstrap;
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './style.css';
+
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
